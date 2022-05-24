@@ -36,7 +36,7 @@ const App=()=> {
     
     const updateUsers= userInfo=>{
   
-      axios.put(`https://users-crud1.herokuapp.com/users/${userInfo.id}/`,userInfo)
+      axios.put(`https://users-crud1.herokuapp.com/users/${user.id}/`,userInfo)
       const index= users.findIndex(user=>
         user.id === userInfo.id);
   

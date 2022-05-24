@@ -1,0 +1,38 @@
+.App{
+  background: #8F00FF;
+  height: 100%;
+  padding: 20px 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0 0;
+
+
+
+}
+
+.users{
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid blue;
+  background: white;
+  padding: 20px 0;
+}
+
+.formUser{
+  border: 1px solid blue;
+  background: white;
+  margin: auto;
+  width: 40%;
+}
+
+
+.dateUsers{
+  margin: 15px 0;
+}

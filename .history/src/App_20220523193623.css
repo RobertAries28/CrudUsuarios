@@ -28,9 +28,6 @@ ul{
   padding: 20px 0;
  
 }
-.infoUsers{
-  width: 40%;
-}
 
 .form{
   display: flex;
@@ -59,11 +56,6 @@ ul{
 input{
 padding: 5px;
 margin: 5px 3px;
-border-radius: 5px;
-border: 1px solid lightslategray;
-background: 
-#ECECEC
-;
 
 
 }

@@ -23,7 +23,7 @@ const App=()=> {
   
     const addUsers= user=>{
       axios.post('https://users-crud1.herokuapp.com/users/',user).then(()=>getUsers())
-      setUsers([...users,user])
+      
     }
   
     const removeUsers=(id)=>{

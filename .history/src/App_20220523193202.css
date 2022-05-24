@@ -26,10 +26,6 @@ ul{
   border: 1px solid blue;
   background: white;
   padding: 20px 0;
- 
-}
-.infoUsers{
-  width: 40%;
 }
 
 .form{
@@ -39,31 +35,22 @@ ul{
   align-items: center;
   border: 1px solid blue;
   background: white;
- 
- 
+  height: 40%;
+  padding: 20px;
  
 
 }
 
 .formUser{
-  padding-left: 20px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   width: 30%;
   border: 1px solid blue;
   background: white;
-  height: 40%;
 }
 
 input{
 padding: 5px;
-margin: 5px 3px;
-border-radius: 5px;
-border: 1px solid lightslategray;
-background: 
-#ECECEC
-;
+margin: 0 3px;
 
 
 }

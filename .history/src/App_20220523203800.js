@@ -23,7 +23,7 @@ const App=()=> {
   
     const addUsers= user=>{
       axios.post('https://users-crud1.herokuapp.com/users/',user).then(()=>getUsers())
-      setUsers([...users,user])
+      
     }
   
     const removeUsers=(id)=>{
@@ -37,11 +37,7 @@ const App=()=> {
     const updateUsers= userInfo=>{
   
       axios.put(`https://users-crud1.herokuapp.com/users/${userInfo.id}/`,userInfo)
-      const index= users.findIndex(user=>
-        user.id === userInfo.id);
-  
-        users[index]= userInfo;
-        setUsers([...users])
+     
     }
   return (
     <div className="App">
